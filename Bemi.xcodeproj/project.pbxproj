@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF0EDDFA220EA6A700F83B7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0EDDF9220EA6A700F83B7E /* AppDelegate.swift */; };
+		EF0EDDFC220EA6A700F83B7E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0EDDFB220EA6A700F83B7E /* ViewController.swift */; };
+		EF0EDDFF220EA6A700F83B7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0EDDFD220EA6A700F83B7E /* Main.storyboard */; };
+		EF0EDE01220EA6AA00F83B7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF0EDE00220EA6AA00F83B7E /* Assets.xcassets */; };
+		EF0EDE04220EA6AA00F83B7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF0EDE02220EA6AA00F83B7E /* LaunchScreen.storyboard */; };
+		EF0EDE0F220EA6AA00F83B7E /* BemiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0EDE0E220EA6AA00F83B7E /* BemiTests.swift */; };
+		EF0EDE1A220EA6AA00F83B7E /* BemiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0EDE19220EA6AA00F83B7E /* BemiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF0EDE0B220EA6AA00F83B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0EDDEE220EA6A700F83B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0EDDF5220EA6A700F83B7E;
+			remoteInfo = Bemi;
+		};
+		EF0EDE16220EA6AA00F83B7E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF0EDDEE220EA6A700F83B7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF0EDDF5220EA6A700F83B7E;
+			remoteInfo = Bemi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF0EDDF6220EA6A700F83B7E /* Bemi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bemi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0EDDF9220EA6A700F83B7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF0EDDFB220EA6A700F83B7E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF0EDDFE220EA6A700F83B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF0EDE00220EA6AA00F83B7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF0EDE03220EA6AA00F83B7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF0EDE05220EA6AA00F83B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0EDE0A220EA6AA00F83B7E /* BemiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BemiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0EDE0E220EA6AA00F83B7E /* BemiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemiTests.swift; sourceTree = "<group>"; };
+		EF0EDE10220EA6AA00F83B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0EDE15220EA6AA00F83B7E /* BemiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BemiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0EDE19220EA6AA00F83B7E /* BemiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BemiUITests.swift; sourceTree = "<group>"; };
+		EF0EDE1B220EA6AA00F83B7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF0EDDF3220EA6A700F83B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0EDE07220EA6AA00F83B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0EDE12220EA6AA00F83B7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF0EDDED220EA6A700F83B7E = {
+			isa = PBXGroup;
+			children = (
+				EF0EDDF8220EA6A700F83B7E /* Bemi */,
+				EF0EDE0D220EA6AA00F83B7E /* BemiTests */,
+				EF0EDE18220EA6AA00F83B7E /* BemiUITests */,
+				EF0EDDF7220EA6A700F83B7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF0EDDF7220EA6A700F83B7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF0EDDF6220EA6A700F83B7E /* Bemi.app */,
+				EF0EDE0A220EA6AA00F83B7E /* BemiTests.xctest */,
+				EF0EDE15220EA6AA00F83B7E /* BemiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF0EDDF8220EA6A700F83B7E /* Bemi */ = {
+			isa = PBXGroup;
+			children = (
+				EF0EDDF9220EA6A700F83B7E /* AppDelegate.swift */,
+				EF0EDDFB220EA6A700F83B7E /* ViewController.swift */,
+				EF0EDDFD220EA6A700F83B7E /* Main.storyboard */,
+				EF0EDE00220EA6AA00F83B7E /* Assets.xcassets */,
+				EF0EDE02220EA6AA00F83B7E /* LaunchScreen.storyboard */,
+				EF0EDE05220EA6AA00F83B7E /* Info.plist */,
+			);
+			path = Bemi;
+			sourceTree = "<group>";
+		};
+		EF0EDE0D220EA6AA00F83B7E /* BemiTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0EDE0E220EA6AA00F83B7E /* BemiTests.swift */,
+				EF0EDE10220EA6AA00F83B7E /* Info.plist */,
+			);
+			path = BemiTests;
+			sourceTree = "<group>";
+		};
+		EF0EDE18220EA6AA00F83B7E /* BemiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF0EDE19220EA6AA00F83B7E /* BemiUITests.swift */,
+				EF0EDE1B220EA6AA00F83B7E /* Info.plist */,
+			);
+			path = BemiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF0EDDF5220EA6A700F83B7E /* Bemi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0EDE1E220EA6AA00F83B7E /* Build configuration list for PBXNativeTarget "Bemi" */;
+			buildPhases = (
+				EF0EDDF2220EA6A700F83B7E /* Sources */,
+				EF0EDDF3220EA6A700F83B7E /* Frameworks */,
+				EF0EDDF4220EA6A700F83B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bemi;
+			productName = Bemi;
+			productReference = EF0EDDF6220EA6A700F83B7E /* Bemi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF0EDE09220EA6AA00F83B7E /* BemiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0EDE21220EA6AA00F83B7E /* Build configuration list for PBXNativeTarget "BemiTests" */;
+			buildPhases = (
+				EF0EDE06220EA6AA00F83B7E /* Sources */,
+				EF0EDE07220EA6AA00F83B7E /* Frameworks */,
+				EF0EDE08220EA6AA00F83B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0EDE0C220EA6AA00F83B7E /* PBXTargetDependency */,
+			);
+			name = BemiTests;
+			productName = BemiTests;
+			productReference = EF0EDE0A220EA6AA00F83B7E /* BemiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF0EDE14220EA6AA00F83B7E /* BemiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF0EDE24220EA6AA00F83B7E /* Build configuration list for PBXNativeTarget "BemiUITests" */;
+			buildPhases = (
+				EF0EDE11220EA6AA00F83B7E /* Sources */,
+				EF0EDE12220EA6AA00F83B7E /* Frameworks */,
+				EF0EDE13220EA6AA00F83B7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF0EDE17220EA6AA00F83B7E /* PBXTargetDependency */,
+			);
+			name = BemiUITests;
+			productName = BemiUITests;
+			productReference = EF0EDE15220EA6AA00F83B7E /* BemiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF0EDDEE220EA6A700F83B7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Hannah Leland";
+				TargetAttributes = {
+					EF0EDDF5220EA6A700F83B7E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					EF0EDE09220EA6AA00F83B7E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF0EDDF5220EA6A700F83B7E;
+					};
+					EF0EDE14220EA6AA00F83B7E = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = EF0EDDF5220EA6A700F83B7E;
+					};
+				};
+			};
+			buildConfigurationList = EF0EDDF1220EA6A700F83B7E /* Build configuration list for PBXProject "Bemi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF0EDDED220EA6A700F83B7E;
+			productRefGroup = EF0EDDF7220EA6A700F83B7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF0EDDF5220EA6A700F83B7E /* Bemi */,
+				EF0EDE09220EA6AA00F83B7E /* BemiTests */,
+				EF0EDE14220EA6AA00F83B7E /* BemiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF0EDDF4220EA6A700F83B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0EDE04220EA6AA00F83B7E /* LaunchScreen.storyboard in Resources */,
+				EF0EDE01220EA6AA00F83B7E /* Assets.xcassets in Resources */,
+				EF0EDDFF220EA6A700F83B7E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0EDE08220EA6AA00F83B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0EDE13220EA6AA00F83B7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF0EDDF2220EA6A700F83B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0EDDFC220EA6A700F83B7E /* ViewController.swift in Sources */,
+				EF0EDDFA220EA6A700F83B7E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0EDE06220EA6AA00F83B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0EDE0F220EA6AA00F83B7E /* BemiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0EDE11220EA6AA00F83B7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF0EDE1A220EA6AA00F83B7E /* BemiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF0EDE0C220EA6AA00F83B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0EDDF5220EA6A700F83B7E /* Bemi */;
+			targetProxy = EF0EDE0B220EA6AA00F83B7E /* PBXContainerItemProxy */;
+		};
+		EF0EDE17220EA6AA00F83B7E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF0EDDF5220EA6A700F83B7E /* Bemi */;
+			targetProxy = EF0EDE16220EA6AA00F83B7E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF0EDDFD220EA6A700F83B7E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0EDDFE220EA6A700F83B7E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF0EDE02220EA6AA00F83B7E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF0EDE03220EA6AA00F83B7E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF0EDE1C220EA6AA00F83B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF0EDE1D220EA6AA00F83B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF0EDE1F220EA6AA00F83B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = Bemi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Bemi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF0EDE20220EA6AA00F83B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = Bemi/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.Bemi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF0EDE22220EA6AA00F83B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = BemiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.BemiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bemi.app/Bemi";
+			};
+			name = Debug;
+		};
+		EF0EDE23220EA6AA00F83B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = BemiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.BemiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bemi.app/Bemi";
+			};
+			name = Release;
+		};
+		EF0EDE25220EA6AA00F83B7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = BemiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.BemiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bemi;
+			};
+			name = Debug;
+		};
+		EF0EDE26220EA6AA00F83B7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MSFUL3GV9D;
+				INFOPLIST_FILE = BemiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hannah-leland.BemiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Bemi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF0EDDF1220EA6A700F83B7E /* Build configuration list for PBXProject "Bemi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0EDE1C220EA6AA00F83B7E /* Debug */,
+				EF0EDE1D220EA6AA00F83B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0EDE1E220EA6AA00F83B7E /* Build configuration list for PBXNativeTarget "Bemi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0EDE1F220EA6AA00F83B7E /* Debug */,
+				EF0EDE20220EA6AA00F83B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0EDE21220EA6AA00F83B7E /* Build configuration list for PBXNativeTarget "BemiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0EDE22220EA6AA00F83B7E /* Debug */,
+				EF0EDE23220EA6AA00F83B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF0EDE24220EA6AA00F83B7E /* Build configuration list for PBXNativeTarget "BemiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF0EDE25220EA6AA00F83B7E /* Debug */,
+				EF0EDE26220EA6AA00F83B7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF0EDDEE220EA6A700F83B7E /* Project object */;
+}
